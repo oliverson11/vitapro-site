@@ -50,6 +50,28 @@
       border-radius: 10px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.08);
     }
+    form {
+      margin-top: 20px;
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 1px solid #d1d5db;
+      font-size: 16px;
+    }
+    button {
+      margin-top: 15px;
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+    }
     footer {
       background: #111827;
       color: #9ca3af;
@@ -71,7 +93,6 @@
 <header>
   <h1>VitaPro</h1>
   <p>Améliorer sa vie, pas à pas</p>
-  <a href="#objectif" class="btn">Commencer</a>
   <a href="#guide" class="btn">📘 Guide gratuit</a>
 </header>
 
@@ -79,61 +100,34 @@
   <div class="box">
     <h2>🎯 Objectif</h2>
     <p>
-      VitaPro est destiné aux personnes qui partent de zéro.
-      Ici, pas de promesses irréalistes.
-      Juste des méthodes simples pour améliorer sa santé,
-      son mental et sa situation financière.
-    </p>
-  </div>
-</section>
-
-<section id="sante">
-  <div class="box">
-    <h2>💪 Santé à la maison</h2>
-    <p>
-      Perdre du poids à la maison,
-      sans salle de sport et sans matériel,
-      même pour les débutants.
-    </p>
-  </div>
-</section>
-
-<section id="mental">
-  <div class="box">
-    <h2>🧠 Mental & discipline</h2>
-    <p>
-      Créer de bonnes habitudes,
-      rester motivé et avancer chaque jour.
-    </p>
-  </div>
-</section>
-
-<section id="argent">
-  <div class="box">
-    <h2>💰 Argent & opportunités</h2>
-    <p>
-      Découvrir des méthodes légales
-      pour gagner de l’argent en ligne,
-      adaptées aux débutants.
+      Aider les débutants à améliorer leur santé,
+      leur mental et leurs revenus avec des méthodes simples.
     </p>
   </div>
 </section>
 
 <section id="guide">
   <div class="box">
-    <h2>📘 Guide gratuit</h2>
+    <h2>📘 Recevoir le guide gratuit</h2>
     <p>
-      Un guide simple sera bientôt disponible pour t’aider
-      à commencer sans pression et sans risque.
+      Laisse ton email pour recevoir un guide simple
+      pour bien commencer, sans pression.
     </p>
-    <p>
-      👉 Contenu clair, pratique et réaliste.
+
+    <form>
+      <input type="text" placeholder="Ton prénom">
+      <input type="email" placeholder="Ton email">
+      <button>Recevoir le guide</button>
+    </form>
+
+    <p style="font-size:14px;color:#6b7280;margin-top:10px;">
+      Aucun spam. Tu peux te désinscrire à tout moment.
     </p>
   </div>
 </section>
 
 <footer>
-  © 2025 VitaPro – Progression réelle, sans arnaque
+  © 2025 VitaPro – Progression réelle, pas à pas
 </footer>
 
 </body>
