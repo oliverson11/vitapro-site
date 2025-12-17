@@ -7,14 +7,137 @@
 
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
   <style>
-    body { font-family: 'Montserrat', sans-serif; }
+    body { font-family: 'Poppins', sans-serif; }
   </style>
 </head>
 
-<body class="bg-[#0E0E0E] text-gray-100">
+<body class="bg-[#0B0B0B] text-gray-100">
 
 <!-- HEADER -->
-<header class="fixed top-0 w-full z-50 bg-[#0E0E0E]/90 backdro
+<header class="fixed top-0 w-full z-50 bg-black/90 backdrop-blur border-b border-[#222]">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <div class="text-2xl font-extrabold tracking-widest text-[#FFD700]">
+      VITAPRO
+    </div>
+    <nav class="hidden md:flex space-x-8 text-sm uppercase tracking-wide">
+      <a href="#argent" class="text-[#FFD700] hover:text-white">Argent</a>
+      <a href="#sante" class="text-[#00C896] hover:text-white">Santé</a>
+      <a href="#ebooks" class="text-[#FFD700] hover:text-white">eBooks</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="min-h-screen flex items-center justify-center text-center px-6">
+  <div class="max-w-4xl">
+    <h1 class="text-5xl md:text-6xl font-extrabold leading-tight">
+      <span class="text-[#FFD700]">Discipline.</span><br>
+      <span class="text-white">Clarté.</span><br>
+      <span class="text-[#00C896]">Liberté.</span>
+    </h1>
+
+    <p class="mt-10 text-lg text-gray-400">
+      Une plateforme moderne pour transformer
+      <span class="text-[#FFD700]">l’argent</span>,
+      <span class="text-[#00C896]">la santé</span>
+      et le mental.
+    </p>
+
+    <div class="mt-12 flex justify-center gap-6 flex-wrap">
+      <a href="#ebooks"
+         class="px-8 py-4 rounded-xl font-semibold bg-[#FFD700] text-black hover:scale-105 transition">
+        Voir les eBooks
+      </a>
+      <a href="#sante"
+         class="px-8 py-4 rounded-xl font-semibold border-2 border-[#00C896] text-[#00C896] hover:bg-[#00C896] hover:text-black transition">
+        Perte de poids
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ARGENT -->
+<section id="argent" class="py-28 bg-[#111]">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-[#FFD700] mb-6">
+      Argent & Revenus
+    </h2>
+    <p class="text-gray-400 max-w-3xl">
+      Comprendre l’argent, les revenus digitaux et les systèmes modernes
+      sans illusion ni promesses vides.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-8 mt-14">
+      <div class="border border-[#FFD700] p-8 rounded-xl">
+        Revenus en ligne
+      </div>
+      <div class="border border-[#FFD700] p-8 rounded-xl">
+        Discipline financière
+      </div>
+      <div class="border border-[#FFD700] p-8 rounded-xl">
+        IA & automatisation
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SANTÉ -->
+<section id="sante" class="py-28 bg-black">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-[#00C896] mb-6">
+      Santé & Perte de poids
+    </h2>
+    <p class="text-gray-400 max-w-3xl">
+      Programmes simples, efficaces, à la maison,
+      pour hommes et femmes débutants.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-8 mt-14">
+      <div class="border border-[#00C896] p-8 rounded-xl">
+        Exercices maison
+      </div>
+      <div class="border border-[#00C896] p-8 rounded-xl">
+        Nutrition simple
+      </div>
+      <div class="border border-[#00C896] p-8 rounded-xl">
+        Mental & constance
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EBOOKS -->
+<section id="ebooks" class="py-28 bg-[#111]">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-bold text-[#FFD700]">
+      eBooks Premium
+    </h2>
+    <p class="mt-6 text-gray-400 max-w-3xl mx-auto">
+      Guides sérieux (60–100 pages) sur l’argent,
+      la santé et la discipline personnelle.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-10 mt-16">
+      <div class="border-2 border-[#FFD700] p-8 rounded-xl">
+        Argent & liberté
+      </div>
+      <div class="border-2 border-[#00C896] p-8 rounded-xl">
+        Perte de poids
+      </div>
+      <div class="border-2 border-white p-8 rounded-xl">
+        Mental fort
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-10 text-center text-sm text-gray-500 border-t border-[#222]">
+  © 2025 <span class="text-[#FFD700]">VITAPRO</span> — Discipline • Santé • Liberté
+</footer>
+
+</body>
+</html>
