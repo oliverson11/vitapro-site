@@ -7,35 +7,64 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f6f8;
-      color: #333;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f1f5f9;
+      color: #1f2937;
+      line-height: 1.6;
     }
     header {
-      background: #2563eb;
+      background: linear-gradient(135deg, #2563eb, #1e40af);
       color: white;
-      padding: 30px 20px;
+      padding: 60px 20px;
       text-align: center;
     }
-    section {
-      max-width: 900px;
-      margin: auto;
-      padding: 40px 20px;
+    header h1 {
+      margin: 0;
+      font-size: 42px;
     }
-    h1, h2 {
+    header p {
+      font-size: 18px;
+      margin-top: 15px;
+      opacity: 0.95;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    .card h2 {
+      margin-top: 0;
       color: #1e40af;
     }
-    .box {
-      background: white;
-      padding: 20px;
-      margin-top: 20px;
-      border-radius: 8px;
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .cta a {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
     }
     footer {
       background: #111827;
-      color: #ccc;
+      color: #9ca3af;
       text-align: center;
-      padding: 20px;
+      padding: 25px;
       font-size: 14px;
     }
   </style>
@@ -44,47 +73,45 @@
 
 <header>
   <h1>VitaPro</h1>
-  <p>Améliore ta santé, ton mental et ton avenir</p>
+  <p>Construis une vie plus saine, plus disciplinée et plus libre</p>
 </header>
 
 <section>
-  <div class="box">
-    <h2>🎯 Notre mission</h2>
-    <p>
-      VitaPro aide les débutants à améliorer leur vie étape par étape :
-      santé, discipline, apprentissage et indépendance.
-    </p>
+  <div class="cards">
+    <div class="card">
+      <h2>💪 Santé</h2>
+      <p>
+        Retrouver de l’énergie et de meilleures habitudes,
+        même en partant de zéro.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>🧠 Mental</h2>
+      <p>
+        Développer la discipline, la motivation
+        et la constance au quotidien.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>🚀 Évolution</h2>
+      <p>
+        Avancer progressivement vers une vie plus stable
+        et plus indépendante.
+      </p>
+    </div>
   </div>
 
-  <div class="box">
-    <h2>💪 Santé & Bien-être</h2>
-    <p>
-      Des méthodes simples pour se sentir mieux au quotidien,
-      adaptées à ceux qui commencent de zéro.
-    </p>
-  </div>
-
-  <div class="box">
-    <h2>🧠 Mental & Motivation</h2>
-    <p>
-      Développer la discipline, la constance et la clarté
-      pour avancer sans pression inutile.
-    </p>
-  </div>
-
-  <div class="box">
-    <h2>🚀 Évolution</h2>
-    <p>
-      Ce site évoluera progressivement avec de nouveaux contenus,
-      outils et solutions accessibles à tous.
-    </p>
+  <div class="cta">
+    <p>Ce site évoluera étape par étape.</p>
+    <a href="#">Commencer maintenant</a>
   </div>
 </section>
 
 <footer>
-  <p>© 2025 VitaPro – Tous droits réservés</p>
+  © 2025 VitaPro — Progrès, simplicité et constance
 </footer>
 
 </body>
 </html>
-
