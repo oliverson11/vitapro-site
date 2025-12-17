@@ -1,96 +1,63 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<title>VitaPro</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-body{margin:0;font-family:Arial,sans-serif;background:#f1f5f9;color:#1f2937}
-nav{background:#111827;padding:15px;text-align:center}
-nav a{color:#ffffff;margin:0 15px;text-decoration:none;font-weight:bold}
-header{background:#2563eb;color:white;padding:80px 20px;text-align:center}
-.btn{display:inline-block;margin-top:20px;background:white;color:#2563eb;padding:12px 26px;border-radius:25px;text-decoration:none;font-weight:bold}
-section{max-width:900px;margin:auto;padding:60px 20px}
-.box{background:white;padding:25px;margin-bottom:30px;border-radius:10px}
-footer{background:#111827;color:#9ca3af;text-align:center;padding:20px;font-size:14px}
-</style>
+  <meta charset="UTF-8">
+  <title>VitaPro – Santé & Revenus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-
-<!-- MENU -->
-<nav>
-  <a href="#objectif">Objectif</a>
-  <a href="#guide">Guide</a>
-  <a href="#argent">Argent</a>
-  <a href="#affiliation">Affiliation</a>
-</nav>
+<body class="bg-gray-50 text-gray-800">
 
 <!-- HEADER -->
-<header>
-  <h1>VitaPro</h1>
-  <p>Améliorer sa vie, pas à pas</p>
-  <a href="#guide" class="btn">📘 Guide gratuit</a>
+<header class="bg-white shadow">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">VitaPro</h1>
+    <nav class="space-x-4">
+      <a href="#argent" class="hover:text-blue-600">Argent</a>
+      <a href="#poids" class="hover:text-blue-600">Perte de poids</a>
+      <a href="#ebooks" class="hover:text-blue-600">eBooks</a>
+    </nav>
+  </div>
 </header>
 
-<!-- OBJECTIF -->
-<section id="objectif">
-  <div class="box">
-    <h2>🎯 Objectif</h2>
-    <p>
-      Aider les débutants à améliorer leur santé,
-      leur mental et à comprendre comment créer
-      des revenus en ligne sans arnaque.
+<!-- HERO -->
+<section class="bg-blue-600 text-white py-20">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-bold">Améliore ta vie, pas à pas</h2>
+    <p class="mt-4 text-lg">
+      Santé à la maison et compréhension des revenus en ligne,
+      expliquées simplement pour débutants.
     </p>
-  </div>
-</section>
-
-<!-- GUIDE -->
-<section id="guide">
-  <div class="box">
-    <h2>📘 Guide gratuit</h2>
-    <p>Laisse ton email pour recevoir un guide simple.</p>
-    <input type="text" placeholder="Ton prénom" style="width:100%;padding:10px;margin-top:10px">
-    <input type="email" placeholder="Ton email" style="width:100%;padding:10px;margin-top:10px">
-    <button style="margin-top:15px;width:100%;padding:12px;background:#2563eb;color:white;border:none;font-weight:bold">
-      Recevoir le guide
-    </button>
   </div>
 </section>
 
 <!-- ARGENT -->
-<section id="argent">
-  <div class="box">
-    <h2>💰 Argent</h2>
-    <ul>
-      <li>✔ Bases pour gagner de l’argent en ligne</li>
-      <li>✔ Guides numériques</li>
-      <li>✔ Utilisation simple de l’IA</li>
+<section id="argent" class="py-16 bg-white">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center">💰 Comprendre l’argent en ligne</h2>
+    <p class="mt-6 text-center text-gray-600">
+      Ici, pas de promesses irréalistes.  
+      On explique les bases pour comprendre comment l’argent se gagne sur Internet.
+    </p>
+
+    <ul class="mt-10 space-y-3 max-w-xl mx-auto">
+      <li>✔ Différence entre arnaque et vrai travail</li>
+      <li>✔ Mentalité à long terme</li>
+      <li>✔ Utilisation intelligente du numérique</li>
+      <li>✔ Avancer étape par étape</li>
     </ul>
   </div>
 </section>
 
-<!-- AFFILIATION -->
-<section id="affiliation">
-  <div class="box">
-    <h2>🤝 Affiliation</h2>
-    <p>
-      L’affiliation consiste à recommander des livres,
-      outils ou formations d’autres créateurs.
+<!-- POIDS -->
+<section id="poids" class="py-16 bg-gray-100">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center">🏠 Perte de poids à la maison</h2>
+    <p class="mt-6 text-center text-gray-600">
+      Pour hommes et femmes débutants.  
+      Sans salle de sport. Sans matériel compliqué.
     </p>
-    <p>
-      Une commission peut être gagnée sans coût
-      supplémentaire pour l’acheteur.
-    </p>
-    <p>
-      👉 Seules des ressources utiles seront proposées.
-    </p>
-  </div>
-</section>
 
-<footer>
-© 2025 VitaPro – Progression réelle
-</footer>
-
-</body>
-</html>
+    <ul class="mt-10 space-y-3 max-w-xl mx-auto">
+      <li>✔ Exercices simples à la
