@@ -11,6 +11,19 @@
       background: #f1f5f9;
       color: #1f2937;
     }
+    nav {
+      background: #111827;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
     header {
       background: #2563eb;
       color: white;
@@ -20,12 +33,12 @@
     section {
       max-width: 900px;
       margin: auto;
-      padding: 40px 20px;
+      padding: 60px 20px;
     }
     .box {
       background: white;
       padding: 25px;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
       border-radius: 10px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.08);
     }
@@ -40,43 +53,54 @@
 </head>
 <body>
 
+<nav>
+  <a href="#objectif">Objectif</a>
+  <a href="#sante">Santé</a>
+  <a href="#mental">Mental</a>
+  <a href="#evolution">Évolution</a>
+</nav>
+
 <header>
   <h1>VitaPro</h1>
   <p>Améliorer sa vie, simplement et progressivement</p>
 </header>
 
-<section>
+<section id="objectif">
   <div class="box">
     <h2>🎯 Objectif</h2>
     <p>
-      VitaPro est un site destiné aux débutants
-      qui veulent améliorer leur santé, leur discipline
-      et leur avenir, étape par étape.
+      VitaPro aide les débutants à améliorer leur vie
+      pas à pas, sans pression et sans solutions compliquées.
     </p>
   </div>
+</section>
 
+<section id="sante">
   <div class="box">
     <h2>💪 Santé & habitudes</h2>
     <p>
-      Des principes simples pour se sentir mieux
-      au quotidien, sans pression ni solutions compliquées.
+      Des principes simples pour se sentir mieux au quotidien,
+      directement depuis chez soi.
     </p>
   </div>
+</section>
 
+<section id="mental">
   <div class="box">
-    <h2>🧠 Mental & progrès</h2>
+    <h2>🧠 Mental & discipline</h2>
     <p>
-      Construire une mentalité solide,
-      avancer lentement mais sûrement,
-      et rester constant.
+      Construire une mentalité solide, rester constant
+      et avancer même quand c’est difficile.
     </p>
   </div>
+</section>
 
+<section id="evolution">
   <div class="box">
     <h2>🚀 Évolution</h2>
     <p>
-      Ce site évoluera avec le temps,
-      en restant simple, clair et accessible.
+      Ce site évoluera avec le temps, toujours en restant
+      simple, clair et accessible.
     </p>
   </div>
 </section>
