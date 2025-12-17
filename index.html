@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>VitaPro – Améliore ta vie</title>
+  <title>VitaPro – Progresser simplement</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
@@ -10,61 +10,88 @@
       font-family: "Segoe UI", Arial, sans-serif;
       background: #f1f5f9;
       color: #1f2937;
-      line-height: 1.6;
+      line-height: 1.7;
     }
     header {
       background: linear-gradient(135deg, #2563eb, #1e40af);
       color: white;
-      padding: 60px 20px;
+      padding: 70px 20px;
       text-align: center;
     }
     header h1 {
       margin: 0;
-      font-size: 42px;
+      font-size: 44px;
     }
     header p {
-      font-size: 18px;
-      margin-top: 15px;
+      font-size: 19px;
+      margin-top: 18px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
       opacity: 0.95;
     }
     section {
       max-width: 1000px;
       margin: auto;
-      padding: 50px 20px;
+      padding: 60px 20px;
+    }
+    .intro {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .intro h2 {
+      color: #1e40af;
+      font-size: 32px;
+    }
+    .intro p {
+      max-width: 750px;
+      margin: 20px auto 0;
+      font-size: 17px;
+      color: #374151;
     }
     .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
     }
     .card {
       background: white;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.08);
     }
-    .card h2 {
+    .card h3 {
       margin-top: 0;
       color: #1e40af;
+      font-size: 22px;
+    }
+    .card p {
+      font-size: 16px;
+      color: #374151;
     }
     .cta {
       text-align: center;
-      margin-top: 40px;
+      margin-top: 60px;
+    }
+    .cta p {
+      font-size: 18px;
+      margin-bottom: 20px;
     }
     .cta a {
       display: inline-block;
       background: #2563eb;
       color: white;
-      padding: 14px 28px;
-      border-radius: 30px;
+      padding: 16px 34px;
+      border-radius: 40px;
       text-decoration: none;
       font-weight: bold;
+      font-size: 16px;
     }
     footer {
       background: #111827;
       color: #9ca3af;
       text-align: center;
-      padding: 25px;
+      padding: 30px;
       font-size: 14px;
     }
   </style>
@@ -73,44 +100,59 @@
 
 <header>
   <h1>VitaPro</h1>
-  <p>Construis une vie plus saine, plus disciplinée et plus libre</p>
+  <p>
+    Une approche simple et progressive pour améliorer ta santé,
+    ton mental et ton avenir, même si tu pars de zéro.
+  </p>
 </header>
 
 <section>
+  <div class="intro">
+    <h2>À qui s’adresse VitaPro ?</h2>
+    <p>
+      VitaPro est destiné aux personnes ordinaires qui veulent
+      reprendre le contrôle de leur vie, sans pression,
+      sans promesses irréalistes et sans solutions compliquées.
+    </p>
+  </div>
+
   <div class="cards">
     <div class="card">
-      <h2>💪 Santé</h2>
+      <h3>💪 Santé & Bien-être</h3>
       <p>
-        Retrouver de l’énergie et de meilleures habitudes,
-        même en partant de zéro.
+        Retrouver de meilleures habitudes, plus d’énergie
+        et un corps plus fonctionnel, directement à la maison.
       </p>
     </div>
 
     <div class="card">
-      <h2>🧠 Mental</h2>
+      <h3>🧠 Mental & Discipline</h3>
       <p>
-        Développer la discipline, la motivation
-        et la constance au quotidien.
+        Construire un état d’esprit solide, apprendre la constance
+        et avancer même quand la motivation baisse.
       </p>
     </div>
 
     <div class="card">
-      <h2>🚀 Évolution</h2>
+      <h3>🚀 Évolution personnelle</h3>
       <p>
-        Avancer progressivement vers une vie plus stable
-        et plus indépendante.
+        Progresser étape par étape vers une vie plus stable,
+        plus claire et plus indépendante.
       </p>
     </div>
   </div>
 
   <div class="cta">
-    <p>Ce site évoluera étape par étape.</p>
-    <a href="#">Commencer maintenant</a>
+    <p>
+      VitaPro évoluera progressivement avec des contenus
+      pratiques et accessibles à tous.
+    </p>
+    <a href="#">Continuer</a>
   </div>
 </section>
 
 <footer>
-  © 2025 VitaPro — Progrès, simplicité et constance
+  © 2025 VitaPro — Simplicité • Discipline • Progrès
 </footer>
 
 </body>
